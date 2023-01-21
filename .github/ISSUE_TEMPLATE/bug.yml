@@ -1,0 +1,20 @@
+name: Bug Report
+assignees:
+  - shuklaritvik06
+description: Found a bug 🐛, Raise a Issue and help us
+labels:
+  - "bug"
+title: "Bug: "
+body:
+  - type: textarea
+    attributes:
+      label: What the bug is?
+      description: Some info about the bug
+      placeholder: Bug is ...
+  - type: checkboxes
+    attributes:
+      label: Agree to COC?
+      description: Please agree to the COC
+      options:
+        - label: I agree to the Code of Conduct
+          required: true

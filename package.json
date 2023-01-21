@@ -1,0 +1,43 @@
+{
+	"name": "movieapi",
+	"version": "1.0.0",
+	"description": "Movie Api",
+	"main": "index.js",
+	"scripts": {
+		"build": "npx tsc",
+		"start": "node build/index.js",
+		"dev": "concurrently \"npx tsc --watch\" \"nodemon -q build/index.js\"",
+		"format": "npx prettier -c .prettierrc -w *.ts ./controllers/**/*.ts ./middlewares/**/*.ts ./models/**/*.ts ./types/**/*.ts ./routes/**/*.ts ./config/**/*.ts ./auth/**/*.ts"
+	},
+	"keywords": [],
+	"author": "shuklaritvik06",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"jsonwebtoken": "^9.0.0",
+		"mongoose": "^6.8.4",
+		"puppeteer": "^18.1.0",
+		"puppeteer-extra": "^3.3.4",
+		"puppeteer-extra-plugin-adblocker": "^2.13.5",
+		"puppeteer-extra-plugin-stealth": "^2.11.1"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.13",
+		"@types/dotenv": "^8.2.0",
+		"@types/express": "^4.17.15",
+		"@types/jsonwebtoken": "^9.0.1",
+		"@types/node": "^18.11.18",
+		"@types/puppeteer": "^7.0.4",
+		"concurrently": "^7.6.0",
+		"dotenv": "^16.0.3",
+		"eslint": "^8.32.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"husky": "^8.0.3",
+		"nodemon": "^2.0.20",
+		"ts-node": "^10.9.1",
+		"tslib": "^2.4.1",
+		"typescript": "^4.9.4"
+	}
+}

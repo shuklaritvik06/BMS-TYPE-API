@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "ESNext",
+    "lib": ["es5", "es6", "dom", "dom.iterable"],
+    "module": "commonjs",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./build"
+  }
+}

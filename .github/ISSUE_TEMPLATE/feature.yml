@@ -1,0 +1,20 @@
+name: Feature
+assignees:
+  - shuklaritvik06
+description: New Feature Request ? , Raise a Issue
+labels:
+  - "feat"
+title: "Feature: "
+body:
+  - type: textarea
+    attributes:
+      label: What the feature is?
+      description: Some info about the feature
+      placeholder: Feature is ...
+  - type: checkboxes
+    attributes:
+      label: Agree to COC?
+      description: Please agree to the COC
+      options:
+        - label: I agree to the Code of Conduct
+          required: true
